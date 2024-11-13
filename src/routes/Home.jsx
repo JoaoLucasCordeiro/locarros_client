@@ -10,7 +10,7 @@ const Home = () => {
       className='flex flex-col'
     >
       <section className='h-screen flex flex-col bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${heroImage})` }}>
-        <Header />
+        <Header background="bg-transparent" color="text-white"/>
         <Hero />
       </section>
 
