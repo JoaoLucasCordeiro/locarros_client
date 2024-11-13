@@ -1,11 +1,11 @@
 import React from 'react'
-import logo from '../images/header.png'
+import logo from '../images/logo-header.png'
 
 const Header = () => {
     return (
-        <nav className="flex items-center justify-around h-[150px] p-2 shadow-md ">
+        <nav className="flex items-center justify-around h-[150px] py-20 shadow-md ">
 
-            <img src={logo} alt="LoCarros logo" className='w-[250px]' />
+            <img src={logo} alt="LoCarros logo" className='w-[280px]' />
 
             <div className='flex items-center justify-center gap-10'>
             <li className='text-black font-light list-none'>
