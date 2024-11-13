@@ -17,4 +17,8 @@ body {
     .red-text {
         @apply text-[#ff3131];
     }
+
+    .red-bg {
+        @apply bg-[#ff3131];
+    }
 }
