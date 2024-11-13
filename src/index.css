@@ -4,6 +4,17 @@
     font-family: "Poppins", sans-serif;
 }
 
+body {
+    background-color: #F2F2F2;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities {
+    .red-text {
+        @apply text-[#ff3131];
+    }
+}
